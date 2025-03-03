@@ -160,17 +160,6 @@ extracted_data['total_contribution'] = (extracted_data['pts'] +
 
 ---
 
-## Getting Started 🚦
-
-To reproduce this analysis:
-
-1. Clone this repository
-2. Install required dependencies: `pip install -r requirements.txt`
-3. Run the Jupyter notebook: `jupyter notebook nba-feature-engineering.ipynb`
-4. Explore the analysis and model results
-
----
-
 ## Contact & Connect 📫
 
 For inquiries about this analysis:
