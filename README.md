@@ -66,6 +66,8 @@ The dataset revealed notable patterns in player career durations:
    - Early career efficiency strongly correlates with extended career duration
    - Defensive metrics (combined steals and blocks) show significant impact on career stability
 
+---
+
 ## Business Applications & Strategic Impact 💡
 
 These insights provide significant value for NBA team management and can be directly applied to several key areas:
