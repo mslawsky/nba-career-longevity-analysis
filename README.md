@@ -36,6 +36,18 @@ The S-curve illustrates the non-linear relationship between performance and care
 - The predictive model correctly identifies players with 5+ year potential with over 75% accuracy
 - Model performance metrics: Accuracy: 76.8%, Precision: 78.2%, Recall: 75.3%, F1 Score: 76.7%
 
+### Naive Bayes Prediction Model
+
+We implemented a Gaussian Naive Bayes classifier to predict player career longevity based on rookie year statistics:
+
+![NBA Confusion Matrix](nba-confusion-matrix.png)
+
+Our model delivers:
+- **Accuracy**: 65.4% - Predicts career longevity correctly for 2/3 of players
+- **Precision**: 83.8% - When predicting a 5+ year career, the model is right 84% of the time
+- **Recall**: 54.8% - Identifies just over half of players who actually have long careers
+- **Key Insight**: The model excels at confirming obvious talent (high precision) but may miss borderline players with long-term potential (lower recall)
+
 ### Career Longevity Patterns 🔍
 
 The dataset revealed notable patterns in player career durations:
@@ -154,6 +166,7 @@ extracted_data['total_contribution'] = (extracted_data['pts'] +
 
 1. **Python Analysis Files**
    - [NBA Feature Engineering](nba-feature-engineering.py) (PY)
+   - [NBA Naive Bayes Model](nba-naive-bayes-model.py) (PY)
 
 2. **Datasets**
    - [Original NBA Players Data](nba-players.csv) (CSV)
@@ -164,6 +177,7 @@ extracted_data['total_contribution'] = (extracted_data['pts'] +
    - [NBA Career Prediction Model](nba-career-prediction.png) (PNG)
    - [Feature Importance Analysis](feature-importance.png) (PNG)
    - [Career Probability Curve](probability-curve.png) (PNG)
+   - [Confusion Matrix](nba-confusion-matrix.png) (PNG)
 
 ---
 
