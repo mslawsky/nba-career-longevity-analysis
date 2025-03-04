@@ -40,7 +40,7 @@ The S-curve illustrates the non-linear relationship between performance and care
 
 We implemented a Gaussian Naive Bayes classifier to predict player career longevity based on rookie year statistics:
 
-![NBA Confusion Matrix](nba-confusion-matrix.png)
+![NBA Confusion Matrix](confusion-matrix.png)
 
 Our model delivers:
 - **Accuracy**: 65.4% - Predicts career longevity correctly for 2/3 of players
@@ -177,7 +177,7 @@ extracted_data['total_contribution'] = (extracted_data['pts'] +
    - [NBA Career Prediction Model](nba-career-prediction.png) (PNG)
    - [Feature Importance Analysis](feature-importance.png) (PNG)
    - [Career Probability Curve](probability-curve.png) (PNG)
-   - [Confusion Matrix](nba-confusion-matrix.png) (PNG)
+   - [Confusion Matrix](confusion-matrix.png) (PNG)
 
 ---
 
