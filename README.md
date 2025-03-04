@@ -99,7 +99,7 @@ The predictive model supports more informed financial decisions:
 
 ---
 
-## Methodology & Technical Approach 🧪
+## Methodology & Technical Approach 🛠️
 
 ### Data Preparation & Exploration
 - **Dataset**: Analysis of 1,340 NBA player records with 21 statistical variables.
