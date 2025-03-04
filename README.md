@@ -152,11 +152,18 @@ extracted_data['total_contribution'] = (extracted_data['pts'] +
 
 ## Repository Contents 📁
 
-- **`nba-feature-engineering.ipynb`**: Main analysis notebook with data exploration, feature engineering, and modeling
-- **`data/`**: Directory containing dataset and processed data files
-- **`visualizations/`**: Charts and graphs visualizing key findings
-- **`models/`**: Saved model files and evaluation metrics
-- **`utils/`**: Utility functions and helper scripts
+1. **Python Analysis Files**
+   - [NBA Feature Engineering](nba-feature-engineering.py) (PY)
+
+2. **Datasets**
+   - [Original NBA Players Data](nba-players.csv) (CSV)
+   - [Extracted NBA Players Data](extracted_nba_players_data.csv) (CSV)
+   - [NBA Extracted Features](nba_extracted_features.csv) (CSV)
+
+3. **Visualizations**
+   - [NBA Career Prediction Model](nba-career-prediction.png) (PNG)
+   - [Feature Importance Analysis](feature-importance.png) (PNG)
+   - [Career Probability Curve](probability-curve.png) (PNG)
 
 ---
 
